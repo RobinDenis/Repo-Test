@@ -1,6 +1,6 @@
 h2{
 color:red;
-font-size:30px;
+font-size:25px;
     font-family: 'Oswald', sans-serif;
     text-align:left
 }
@@ -11,7 +11,7 @@ ol{
 }
 
 h1{
-    color: red;
+    color: blue;
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
     text-align: center
@@ -20,7 +20,8 @@ h1{
 header {
 background-color: #424242;
     padding-top: 25px;
-    padding-bottom: 25px
+    padding-bottom: 25px;
+    border-radius: 20px;
 }
 
 header a {
@@ -32,9 +33,12 @@ header a {
 
 header li {
     
-    
+    display: inline-block;
     text-align: center;
     list-style: :none;
+width: 32%;
+   
+}
 
 body{
 margin:0;
@@ -44,4 +48,8 @@ margin:0;
 ul{
 margin: 0;
     padding:0;
+}
+
+.active{
+    background-color: red;
 }
