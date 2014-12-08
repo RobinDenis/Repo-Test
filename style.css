@@ -19,8 +19,7 @@ h1{
 }
 header {
 background-color: #424242;
-    padding-top: 25px;
-    padding-bottom: 25px;
+
     border-radius: 20px;
 }
 
@@ -32,16 +31,23 @@ header a {
 }
 
 header li {
-    
+            padding-top: 25px;
+    padding-bottom: 25px;
     display: inline-block;
     text-align: center;
     list-style: :none;
+    border-right:2px solid white;
 width: 32%;
    
 }
 
+header li:last-of-type{
+    border:0;
+}
+
 body{
 margin:0;
+    
     
 }
 
@@ -52,4 +58,12 @@ margin: 0;
 
 .active{
     background-color: red;
+}
+
+.image-medium{
+    width:300px;
+}
+
+.main-center{
+    text-align: center;
 }
