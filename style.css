@@ -4,18 +4,22 @@ font-size:25px;
     font-family: 'Oswald', sans-serif;
     text-align:left
 }
+p{
+color: white
+}
+
 ol{
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: times new romans
 }
 
 h1{
-    color: blue;
+      color: blue;
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
-    text-align: center
-        
+    text-align: center;
+
 }
 header {
 background-color: #424242;
@@ -66,4 +70,7 @@ margin: 0;
 
 .main-center{
     text-align: center;
+}
+h4{
+color:white
 }
