@@ -13,11 +13,13 @@ ol{
     font-size: 20px;
     font-family: times new romans
 }
-
+h3{
+color: white;
+}
 h1{
       color: blue;
     font-size: 40px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Castellar', sans-serif;
     text-align: center;
 
 }
@@ -73,4 +75,11 @@ margin: 0;
 }
 h4{
 color:white
+}
+
+.center{
+    text-align: center;
+}
+.left{
+text-align: left;
 }
